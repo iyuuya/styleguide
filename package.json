@@ -3,5 +3,14 @@
   "version": "1.0.0",
   "description": "iyuuya's style guide",
   "author": "iyuuya",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "lint": "prettier --check .; eslint --cache ./",
+    "lint:fix": "prettier --write . && eslint --cache --fix ."
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.8.1"
+  }
 }
