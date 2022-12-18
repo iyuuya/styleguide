@@ -1,0 +1,8 @@
+{
+  "name": "@iyuuya/styleguide/prettier",
+  "version": "1.0.0",
+  "description": "iyuuya's prettier config",
+  "repository": "git@github.com:iyuuya/styleguide.git",
+  "author": "iyuuya",
+  "license": "MIT"
+}
