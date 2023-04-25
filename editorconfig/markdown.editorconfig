@@ -1,2 +1,2 @@
 [{*.md}]
-trim_trailing_white_space = false
+trim_trailing_whitespace = false
